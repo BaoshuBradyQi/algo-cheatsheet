@@ -1,22 +1,20 @@
 # algo-cheatsheet
+algo cheatsheet
 
-Solutions for some algo problems.
 
-lt - leetcode
 
-Summery for array 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
+| Foo         | Bar         |
+
+
 <table>
-<tr><td>1001</td><td>something</td><td>py</td><td>[a relative link](./array/1001_something.py)</td></tr>
-</table>
-Summery for binarytree 
-<table>
-</table>
-Summery for dp 
-<table>
-</table>
-Summery for linkedlist 
-<table>
-</table>
-Summery for string 
-<table>
+<tr>
+    <td>Key 1</td>
+    <td>Value 1</td>
+</tr>
+<tr>
+    <td>Key 2</td>
+    <td>Value 2</td>
+</tr>
 </table>
