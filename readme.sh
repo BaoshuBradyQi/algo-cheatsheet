@@ -1,7 +1,7 @@
 #!/bin/bash
 
 text_file="./readme.txt"
-readme_file="./readme.md"
+readme_file="./README.md"
 markdown="md"
 parse_dir() {
 
@@ -18,7 +18,7 @@ do
 		platform=`echo "$filename" | cut -d'_' -f1`
 		title=`echo "$filename" | cut -d'_' -f2`
 	
-		echo "<tr><td>$platform</td><td>$title</td><td>$ext</td><td>[a relative link](./$1$filename.$ext)</td></tr>"	>> $readme_file
+		echo "<tr><td>$platform</td><td>$title</td><td>$ext</td><td>[code]($1$filename.$ext)</td></tr>"	>> $readme_file
 	fi
 
 done
