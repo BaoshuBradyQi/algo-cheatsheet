@@ -18,7 +18,7 @@ do
 		platform=`echo "$filename" | cut -d'_' -f1`
 		title=`echo "$filename" | cut -d'_' -f2`
 	
-		echo "<tr><td>$platform</td><td>$title</td><td><a -href=\""./$1$f"\">$ext</a></td></tr>"	>> $readme_file
+		echo "<tr><td>$platform</td><td>$title</td><td><a -href=\""$1$f"\">$ext</a></td></tr>"	>> $readme_file
 	fi
 
 done
