@@ -5,7 +5,7 @@ readme_file="./README.md"
 markdown="md"
 parse_dir() {
 
-echo "Summery for ${1%/*} " >> $readme_file
+echo "## ${1%/*} " >> $readme_file
 echo "<table>" >>$readme_file
 for f in `ls ./$1`;
 do 
