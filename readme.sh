@@ -23,6 +23,7 @@ do
 
 done
 echo "</table>" >> $readme_file
+echo "" >> $readme_file
 }
 
 
