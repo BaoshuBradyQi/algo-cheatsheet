@@ -6,11 +6,11 @@ lt - leetcode
 
 ## array 
 <table>
-<tr><td>1001</td><td>something</td><td><a href="array/1001_something.py">py</a></td></tr>
 </table>
 
 ## binarytree 
 <table>
+<tr><td>lt0623</td><td>add-one-row-to-tree</td><td><a href="binarytree/lt0623_add-one-row-to-tree.py">py</a></td></tr>
 </table>
 
 ## dp 
