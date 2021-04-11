@@ -4,7 +4,7 @@ if depth is more than 2, it would become add to left/right node with depth - 1
 corner cases would be depth == 1, in which root would become left child
 and when depth == 2,  would add to both left and right child
 
-time complexity would be O(depth)
+time complexity would be O(n)
 space complexity would be O(1)
 
 """
