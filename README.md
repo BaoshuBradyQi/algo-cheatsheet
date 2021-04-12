@@ -17,6 +17,7 @@ lt - leetcode
 ## dp 
 <table>
 <tr><td>lt1387</td><td>sort-integers-by-the-power-value</td><td><a href="dp/lt1387_sort-integers-by-the-power-value.py">py</a></td></tr>
+<tr><td>lt1792</td><td>maximum-average-pass-ratio</td><td><a href="dp/lt1792_maximum-average-pass-ratio.py">py</a></td></tr>
 </table>
 
 ## linkedlist 
