@@ -2,8 +2,9 @@
 maintain a 'waitlist' for char that should be k distance apart
 using heap to track put the most desired char first
 
-time complexity: O(nlogn) for maintaining the heap
-space complexity: O(n)
+time complexity: O(slogn), for maintaining the heap size of n, s times
+space complexity: O(n), n keys
+presumably n is constant number, so the result is O(s) and O(1)
 
 possible improvement: check if there's a valid return first
 """
