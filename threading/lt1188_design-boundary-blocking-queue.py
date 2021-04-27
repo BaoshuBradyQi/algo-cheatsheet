@@ -1,6 +1,6 @@
 """
 using one semaphore to control the length of queue
-using another th control the access of the queue
+using another to control the access of the queue
 """
 from collections import deque
 from threading import Semaphore
