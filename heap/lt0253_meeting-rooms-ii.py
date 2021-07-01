@@ -6,6 +6,8 @@ the maximum heap size would be the maximum rooms needed
 Time complexity: O(nlogn), for sorting and the worst popout case
 Space complexity: O(n)
 """
+import * from heapq
+
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
 
